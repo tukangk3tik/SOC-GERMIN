@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Germinasi Seed Preparation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Keluar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tambah">Tambah</string>
+    <string name="no_kotak">No. Kotak: %1$s</string>
+    <string name="jumlah_kantong">Jumlah kantong: %1$s</string>
+    <string name="jumlah_butir">Jumlah butir: %1$s</string>
+    <string name="daftar_nomor_kotak">Daftar nomor kotak:</string>
+    <string name="data_kosong">Data kosong</string>
+
+    <string name="no_kutip">No. Kutip: %1$s</string>
+    <string name="no_seal">No. Seal: %1$s</string>
+    <string name="kategori">Kategori: %1$s</string>
+    <string name="informasi_kotak">Informasi Kotak</string>
+
+
+    <string name="customer">Customer: %1$s</string>
+    <string name="tgl_kirim">Tgl Kirim: %1$s</string>
+    <string name="lm_str">LM: %1$s</string>
+    <string name="ya_str">YA: %1$s</string>
+    <string name="dpmtg">DPMTG: %1$s</string>
+
+
+    <string name="label_mohon_tunggu">Mohon tunggu…</string>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".packaging.kotak.detail.ScanBarcodeActivity">
+
+<!--    <fragment-->
+<!--        android:id="@+id/barcode_scanner"-->
+<!--        android:name="info.androidhive.barcode.BarcodeReader"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:auto_focus="true"-->
+<!--        app:use_flash="false" />-->
+
+<!--    <info.androidhive.barcode.ScannerOverlay-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#44000000"-->
+<!--        app:line_color="#7323DC"-->
+<!--        app:line_speed="6"-->
+<!--        app:line_width="4"-->
+<!--        app:square_height="180"-->
+<!--        app:square_width="300" />-->
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_arrow_back_white_24"
+        app:rippleColor="@null"
+        app:backgroundTint="@null"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <SurfaceView
+        android:layout_centerInParent="true"
+        android:id="@+id/qrCameraSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:id="@+id/qrScannerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_view_finder"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/qrScannerBar"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_label_qrscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="SCAN QRCODE / BARCODE"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="100dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

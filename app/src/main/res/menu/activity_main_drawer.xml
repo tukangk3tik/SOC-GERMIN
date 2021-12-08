@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Proses I">
+        <menu>
+            <item
+                android:id="@+id/nav_gar_apung"
+                android:icon="@drawable/ic_menu_send"
+                android:title="R. Apung" />
+            <item
+                android:id="@+id/nav_gar_apungafkir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="R. Apung Afkir" />
+            <!--<itemr
+                android:id="@+id/nav_gar_apungkantong"
+                android:icon="@drawable/ic_menu_send"
+                android:title="R. Apung Kantong" />-->
+            <item
+                android:id="@+id/nav_gar_rendam"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rendam" />
+            <item
+                android:id="@+id/nav_gar_fungisida"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fungisida" />
+            <!--<item
+                android:id="@+id/nav_gar_fungisidaafkir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fungisida Afkir" />-->
+            <item
+                android:id="@+id/nav_gar_keringangin"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kering Angin" />
+            <item
+                android:id="@+id/nav_gar_suhupanas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Suhu Ruang Panas" />
+            <item
+                android:id="@+id/nav_gar_panas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ruang Panas" />
+        </menu>
+    </item>
+
+    <item android:title="Proses II">
+        <menu>
+            <item
+                android:id="@+id/nav_gar_preheating"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Preheating" />
+            <item
+                android:id="@+id/nav_gar_rendam2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rendam" />
+            <item
+                android:id="@+id/nav_gar_fungisida2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fungisida" />
+            <item
+                android:id="@+id/nav_gar_keringangin2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kering Angin" />
+            <item
+                android:id="@+id/nav_gar_gelap"
+                android:icon="@drawable/ic_menu_send"
+                android:title="R. Gelap" />
+            <item
+                android:id="@+id/nav_gar_gelap2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Aerasi R. Gelap" />
+            <item
+                android:id="@+id/nav_gar_kutip1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip I" />
+            <item
+                android:id="@+id/nav_gar_kutip2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip II" />
+            <item
+                android:id="@+id/nav_gar_kutip3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip III" />
+            <item
+                android:id="@+id/nav_gar_kutip4"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip IV" />
+            <item
+                android:id="@+id/nav_gar_kutip5"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip V" />
+            <item
+                android:id="@+id/nav_gar_kutipkch1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip KCH I" />
+            <item
+                android:id="@+id/nav_gar_kutipkch2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kutip KCH II" />
+        </menu>
+    </item>
+
+    <item android:title="Packaging">
+        <menu>
+            <item
+                android:id="@+id/nav_kotak"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kotak" />
+        </menu>
+    </item>
+</menu>
